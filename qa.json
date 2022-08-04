@@ -1,0 +1,38 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi", "Is anyone there?", "Hello", "Good day"],
+         "responses": ["Hi there, how can I help?"],
+         "context_set": ""
+        },
+        {"tag": "How_are_you",
+         "patterns": ["How are you"],
+         "responses": ["not bad, what about you?"],
+         "context_set": ""
+        },
+        {"tag": "what_are_you",
+         "patterns": ["What is your name?", "Your name pls?", "who are you?"],
+         "responses": ["Hi, I'm radlid, your Virtual Health Assistant"],
+         "context_set": ""
+        },
+        {"tag": "goodbye",
+         "patterns": ["Bye", "See you later", "Goodbye"],
+         "responses": ["See you later, thanks for visiting", "Have a nice day", "Bye! Come back again soon."]
+        },
+        {"tag": "thanks",
+         "patterns": ["fine","Thanks", "Thank you", "That's helpful"],
+         "responses": ["Happy to help!", "Any time!", "My pleasure"]
+        },
+        {"tag": "What should my blood sugar be?",
+         "patterns": ["What should my blood sugar be?"],
+         "responses": ["The American Diabetes Association recommends a blood glucose range of 80-130 before meals and less than 180 about 2 hours after a meal. This range should place your A1c under 7."]
+        },
+        {"tag": "What can I eat if I have diabetes?",
+         "patterns": ["What can I eat if I have diabetes?"],
+         "responses": ["You can eat just about anything you want. It is about knowing proper portion sizes and how much you are putting on your plate. A dietitian can help you learn to count carbohydrates and with meal planning that is specific for you."]
+        },
+        {"tag": " Do I need to follow a low carb diet?",
+         "patterns": [" Do I need to follow a low carb diet?"],
+         "responses": ["Carbohydrates are an important part of a healthy diet. With diabetes, watching portion sizes and getting most of your carbs from fruits, vegetables, whole grains and low fat milk and yogurt is key. Besides counting carbs, people with diabetes can also benefit from eating lower fat, high fiber foods and just enough calories to maintain a healthy weight."]
+        }
+   ]
+}
